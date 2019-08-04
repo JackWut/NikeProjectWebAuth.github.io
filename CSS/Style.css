@@ -1,0 +1,257 @@
+
+.bgimg-1{
+height: auto;
+background-image: url(../Assets/Home/HomePage.jpg);  
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.bgimg-2{
+height: auto%;
+background-image: url(../Assets/Home/Mens.jpg);  
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.bgimg-3{
+height: auto%;
+background-image: url(../Assets/Home/Sport.jpg);  
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.NikeL{
+height: 100%;
+width:100%;	
+background-image:url(../Assets/Home/nike.jpg);
+right: 90%;
+top: 100%;
+}
+
+.header {
+width: 100%;
+height: 100%;
+background: black;
+color: #fff;  
+}
+
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 16px;
+  font: 400 15px/1.8 Roboto;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+  font: 400 15px/1.8 Roboto;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+}
+.sticky {
+  position: fixed;
+  top: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 28%;
+  height: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+div.container {
+  text-align: center;
+  padding: 10px 15px;
+  background-color: black;
+  font: 400 15px/1.8 Roboto;
+}
+ul{
+    list-style-position: outside;
+	list-style-type: none;
+}
+.products{
+			list-style:none;
+			margin-right:300px;
+			padding:0px;
+			height:100%;
+		}
+		.products li{
+			display:inline;
+			float:left;
+            margin:50px;			
+			position:relative;
+		}
+		.item{
+			display:block;
+			text-decoration:none;
+		}
+		.item img{
+         border: 10px solid #eee;
+         max-width: 250px;
+		 width: 100%;
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		.item p{
+			margin:0;
+			max-width: 240px;
+			font-weight:bold;
+			text-align:center;
+			color:#c3c3c3;
+		}
+	.cart{
+	position: fixed;
+    right: 0;
+    top: 70px;
+    width: 300px;
+    /height: 95%; 
+    background: #222;
+    padding: 0px 2px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    bottom: 10px;
+	color:#fff;
+		}
+		h1{
+			text-align:center;
+			color:#fff;
+		}
+		h2{
+			position:absolute;
+			font-size:16px;
+			left:2px;
+			bottom:10px;
+			color:#555;
+		}
+		.total{
+			margin:0;
+			text-align:right;
+			padding-right:10px;
+			margin-top: 10px;
+		}
+		.priceHolder{
+	max-width: 250px;
+    bottom: 20px;
+    background-color: #333;
+    padding: 5px;
+
+    left: 50%;
+		}
+.product-quantity { width: 10%; }	
+.group:before,
+.group:after {
+    content: '';
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1;
+}
+
+
+
+.shopping-cart, .column-labels, .product, .totals-item {
+  @extend .group;
+}
+
+
+
+.product .product-price:before, .product .product-line-price:before, .totals-value:before {
+  content: '$';
+}
+
+
+.colorBlock {
+      width: 100px;
+      height: 100px;
+    }
+    #Black {
+      background-color: #000;
+    }
+    #Blue {
+      background-color: #00f;
+    }
+    #Red {
+      background-color: #f00;
+    }
+    #Green {
+      background-color: #0f0;
+    }
+	
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  max-height: 90%;
+}
+
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
